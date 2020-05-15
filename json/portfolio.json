@@ -715,6 +715,7 @@
         "blue",
         "light blue"
       ],
+      "focus": "bottom",
       "title": "Night Cats"
     },
     {
@@ -753,6 +754,7 @@
         "beige",
         "grey"
       ],
+      "focus": "top",
       "title": "Devil and Angel"
     },
     {
@@ -788,6 +790,7 @@
         "lavender",
         "purple"
       ],
+      "focus": "bottom",
       "title": "Couple Paper Cutting"
     },
     {
@@ -823,6 +826,7 @@
         "light pink",
         "mauve"
       ],
+      "focus": "top",
       "title": "Couple"
     },
     {
@@ -859,6 +863,7 @@
         "lavender",
         "red"
       ],
+      "focus": "top",
       "title": "Mermaid"
     },
     {
@@ -969,6 +974,7 @@
         "mauve",
         "brown"
       ],
+      "focus": "top",
       "title": "Peacock"
     },
     {
@@ -1005,6 +1011,7 @@
         "brown",
         "mauve"
       ],
+      "focus": "top",
       "title": "Parrot"
     },
     {
@@ -1040,6 +1047,7 @@
         "brown",
         "light brown"
       ],
+      "focus": "top",
       "title": "Peacock"
     },
     {
@@ -1075,6 +1083,7 @@
         "lavender",
         "mauve"
       ],
+      "focus": "top",
       "title": "Leaf"
     },
     {
@@ -1182,6 +1191,7 @@
         "light grey",
         "grey"
       ],
+      "focus": "top",
       "title": "Peacock"
     },
     {
@@ -1254,6 +1264,7 @@
         "light grey",
         "grey"
       ],
+      "focus": "top",
       "title": "Mermaid"
     },
     {
@@ -1288,6 +1299,7 @@
         "white",
         "grey"
       ],
+      "focus": "top",
       "title": "Peacock"
     },
     {
@@ -1319,6 +1331,7 @@
         "black",
         "grey"
       ],
+      "focus": "top",
       "title": "Shivam"
     },
     {
@@ -1660,6 +1673,7 @@
         "grey",
         "brown"
       ],
+      "focus": "top",
       "title": "Girl Look"
     },
     {
@@ -1700,6 +1714,7 @@
         "navy blue",
         "black"
       ],
+      "focus": "top",
       "title": "Baby Girl"
     },
     {
@@ -1882,6 +1897,7 @@
         "black",
         "grey"
       ],
+      "focus": "top",
       "title": "Shirley Setia"
     },
     {
@@ -1915,6 +1931,7 @@
         "light grey",
         "black"
       ],
+      "focus": "top",
       "title": "Girl"
     },
     {
@@ -2022,6 +2039,7 @@
         "black",
         "grey"
       ],
+      "focus": "top",
       "title": "Cute Couple"
     },
     {
@@ -2129,6 +2147,7 @@
         "light grey",
         "grey"
       ],
+      "focus": "top",
       "title": "Hot Kiss"
     },
     {
@@ -2376,6 +2395,7 @@
         "light grey",
         "grey"
       ],
+      "focus": "top",
       "title": "Naked"
     },
     {
@@ -2415,6 +2435,7 @@
         "gold",
         "purple"
       ],
+      "focus": "bottom",
       "title": "Titanic Rose"
     },
     {
@@ -2448,6 +2469,7 @@
         "white",
         "grey"
       ],
+      "focus": "top",
       "title": "Girl in Mood"
     },
     {
@@ -2481,6 +2503,7 @@
         "white",
         "grey"
       ],
+      "focus": "top",
       "title": "Girl in Mood"
     },
     {
@@ -2585,6 +2608,7 @@
         "grey",
         "black"
       ],
+      "focus": "top",
       "title": "Ashiqui"
     },
     {
@@ -2793,7 +2817,6 @@
         "artwork",
         "sign",
         "tattoo",
-        "painting",
         "white",
         "black",
         "light grey",
