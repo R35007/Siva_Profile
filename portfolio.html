@@ -47,6 +47,9 @@
 	<!-- Portfolio section  -->
 	<section>
 		<div class="container-fluid">
+			<div id="showNoItems" class="showNoItems d-flex align-items-center justify-content-center">
+				<span class="text-center">No Images Found</span>
+			</div>
 			<div class="portfolio-section">
 				<div class="row portfolio-gallery m-0 mb-5" id="image-list">
 					<!-- image div are generated here from gallery.js file. Sample structure given below -->
@@ -56,9 +59,11 @@
 							<div class="wrapper">
 								<div class="portfolio-item img-popup"
 									style="background-image:url('images/portfolio/Couple_in_Forest.jpg')"></div>
-								<div class="text">
-									<h5 class="title">Couple in Forest</h4>
-										<p class="description"></p>
+								<div class="overlay">
+									<div class="text">
+										<div class="title">Radha Krishna</div>
+										<div class="description">Acrylic Painting</div>
+									</div>
 								</div>
 							</div>
 						</a>
