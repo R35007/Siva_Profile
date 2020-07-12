@@ -3154,6 +3154,42 @@
         "skin"
       ],
       "title": "Stadium"
+    },
+    {
+      "name": "fort.gif",
+      "tags":[
+        "fort",
+        "mayaproject",
+        "architecture",
+        "building",
+        "church",
+        "facade",
+        "religion",
+        "cathedral",
+        "sky",
+        "dome",
+        "travel",
+        "landmark",
+        "palace",
+        "house",
+        "tourism",
+        "old",
+        "balcony",
+        "historic",
+        "city",
+        "religious",
+        "residence",
+        "tower",
+        "navy blue",
+        "brown",
+        "grey",
+        "light grey",
+        "grey",
+        "navy blue",
+        "light blue",
+        "turquoise"
+      ],
+      "title": "Fort"
     }
   ]
 }
