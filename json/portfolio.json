@@ -19,6 +19,82 @@
   ],
   "images": [
     {
+      "name": "radha.jpg",
+      "title": "Radha Krishna",
+      "tags": [
+        "radha",
+        "Radha-Krishna",
+        "krishna",
+        "painting",
+        "acrylic",
+        "canvas",
+        "painter",
+        "art",
+        "color",
+        "colorful",
+        "design",
+        "pattern",
+        "artistic",
+        "texture",
+        "graphic",
+        "light",
+        "backdrop",
+        "acrylic",
+        "bright",
+        "yellow",
+        "modern",
+        "greige",
+        "black",
+        "red",
+        "blue",
+        "skin",
+        "light-grey",
+        "violet",
+        "green",
+        "light-blue",
+        "rose",
+        "pink"
+      ]
+    },
+    {
+      "name": "cat.jpg",
+      "title": "Colorful Cat",
+      "description": "My Sister's first canvas painting.",
+      "tags": [
+        "cat",
+        "colorful",
+        "dhanya",
+        "colorful-cat",
+        "first",
+        "painting",
+        "acrylic",
+        "canvas",
+        "black-canvas",
+        "graphics",
+        "art",
+        "shape",
+        "design",
+        "pattern",
+        "fractal",
+        "modern",
+        "lights",
+        "curve",
+        "backdrop",
+        "lines",
+        "colorful",
+        "color",
+        "graphic art",
+        "3d",
+        "black",
+        "maroon",
+        "light green",
+        "maroon",
+        "red",
+        "blue",
+        "light blue"
+      ]
+    },
+    {
       "name": "Sunset_Birds.jpg",
       "tags": [
         "sunset-birds",
@@ -3121,7 +3197,7 @@
     },
     {
       "name": "Stadium.jpg",
-      "tags":[
+      "tags": [
         "stadium",
         "mayaproject",
         "maya",
@@ -3157,7 +3233,7 @@
     },
     {
       "name": "fort.gif",
-      "tags":[
+      "tags": [
         "fort",
         "mayaproject",
         "architecture",
