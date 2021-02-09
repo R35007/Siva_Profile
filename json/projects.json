@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Data Size Count",
+    "from": "Oct 2020",
+    "to": "Nov 2020",
+    "description": "This is a VS Code extension which helps to show the number of line and words count in a selected text and also give the array and object size of the selected Json.",
+    "techStack": "Typescript, Node, VS Code extension API",
+    "gitHubUrl": "https://github.com/R35007/data-size-count",
+    "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.data-size-count",
+    "self": true
+  },
+  {
+    "title": "Fake Response Server",
+    "from": "May 2020",
+    "to": "Nov 2020",
+    "description": "A simple mock server which helps generate local mock server with dynamic middleware, delays, proxy ect.. . This is package is also available in npm and in VS Code extensions.",
+    "techStack": "Typescript, Node, Express JS, Lodash, Axios, Url-pattern, VS Code extension API",
+    "nodeUrl": "https://www.npmjs.com/package/fake-response",
+    "gitHubUrl": "https://r35007.github.io/Fake-Response/",
+    "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.fake-response-server",
+    "self": true
+  },
+  {
+    "title": "Virtual Network System Protocol - VNSP",
+    "from": "Mar 2020",
+    "to": "Jan 2021",
+    "description": "A Web app tool to allocate or configure bandwidth for the specific customer",
+    "company": "Verizon",
+    "client": "Enterprise customers",
+    "teamSize": "7",
+    "techStack": "Angular 11, bootstrap, fake-response-server, Java springboot"
+  },
+  {
+    "title": "Canvas Application",
+    "from": "Dec 2019",
+    "to": "Mar 2020",
+    "description": "A Task management tool which helps to assign, suspend task tc.. for the internal purpose.",
+    "company": "Verizon",
+    "client": "Internal employees",
+    "teamSize": "5",
+    "techStack": "Angular 7, bootstrap, Json-server, Java springboot"
+  },
+  {
+    "title": "Ace Tool",
+    "from": "Jun 2019",
+    "to": "Dec 2020",
+    "description": "It is an import and export tool to transfer data between JSON to google sheet and vise versa. The content author provide the content in the google sheet which will then converted to a json object to run the online education tool.",
+    "company": "Lister Technologies",
+    "client": "An American Research And Development Team of Lexia group of companies",
+    "teamSize": "10",
+    "techStack": "Electron, Node, ECMA script, HTML5, SCSS"
+  },
+  {
+    "title": "What To Do",
+    "from": "Jun 2019",
+    "to": "Sep 2020",
+    "description": "What To Do is a tool which helps you to track your daily task and its status. This tool will carry over the previous days task to current date if the task is not completed. Your task details can be exported to excel.",
+    "techStack": "React, Node, Kendo UI, Typescript, Express, OverNight JS.",
+    "gitHubUrl": " https://r35007.github.io/What-To-Do/",
+    "self": true
+  },
+  {
+    "title": "Powerup - Online Educational Tool",
+    "from": "Apr 2019",
+    "to": "Dec 2019",
+    "description": "An online english language communication education tool. The content author provide their content in the third party tool called Contentfull. Using Contentfull API we provide data service to the tool and run the application.",
+    "company": "Lister Technologies",
+    "client": "An American Research And Development Team of Lexia group of company",
+    "teamSize": "10",
+    "techStack": "React, Typescript, ContentFull API, Node, File Systems, MongoDB, Dynamic Form Binding, Modal Creation"
+  },
+  {
+    "title": "Incentive Pay Management",
+    "from": "Jan 2018",
+    "to": "Apr 2019",
+    "description": "A tool to manage the incentive pay for the customers across different regions. The region admin can configure different constraints for their legacy customer like increasing the incentive per hour basis or by speed basis",
+    "company": "Lister Technologies",
+    "client": "An American Retailing Company - Kroger",
+    "teamSize": "15",
+    "techStack": "Angular 7, bootstrap, Json-server, MongoDB, Java springboot, PrimeNg, ChartJS, Dashboards, PDF Export, Report Generation."
+  },
+  {
+    "title": "Email Template Editing Tool",
+    "from": "Sep 2017",
+    "to": "Jan 2018",
+    "description": "A tool similar to word press which helps to build a standard Email Template",
+    "techStack": "HTML5, Css3, Jquery, Node.",
+    "gitHubUrl": "https://r35007.github.io/Email_Template_Editing_Tool/",
+    "self": true
+  },
+  {
+    "title": "UI/UX Designer",
+    "from": "Apr 2017",
+    "to": "Jan 2018",
+    "description": "Build a standard Email Templates for different clients which is compatible for all different browsers and versions",
+    "company": "Lister Technologies",
+    "client": "Lenova, Perricone, Maybyline etc..",
+    "teamSize": "7",
+    "techStack": "HTML5, CSS3, Photoshop, Invision, Bootstrap, Jquery."
+  }
+]
