@@ -13,8 +13,8 @@
       "tag": "cutting"
     },
     {
-      "name": "Project & Modeling",
-      "tag": "mayaproject"
+      "name": "Others",
+      "tag": "others"
     }
   ],
   "images": [
@@ -3134,7 +3134,7 @@
     {
       "name": "what-to-do.png",
       "tags": [
-        "mayaproject",
+        "others",
         "what-to-do",
         "self-project",
         "project",
@@ -3178,7 +3178,7 @@
     {
       "name": "email-template-editor.png",
       "tags": [
-        "mayaproject",
+        "others",
         "email-template-editor",
         "web-app",
         "app",
@@ -3218,7 +3218,7 @@
     {
       "name": "Minion.jpg",
       "tags": [
-        "mayaproject",
+        "others",
         "minion",
         "maya",
         "modeling",
@@ -3254,7 +3254,7 @@
     {
       "name": "plane.jpg",
       "tags": [
-        "mayaproject",
+        "others",
         "maya",
         "modeling",
         "plane",
@@ -3289,7 +3289,7 @@
       "name": "Minion_2.jpg",
       "tags": [
         "minion",
-        "mayaproject",
+        "others",
         "maya",
         "modeling",
         "despicable-me",
@@ -3326,7 +3326,7 @@
       "name": "House.jpg",
       "tags": [
         "house",
-        "mayaproject",
+        "others",
         "maya",
         "modeling",
         "hovel",
@@ -3360,7 +3360,7 @@
       "name": "Stadium.jpg",
       "tags": [
         "stadium",
-        "mayaproject",
+        "others",
         "maya",
         "modeling",
         "design",
@@ -3396,7 +3396,7 @@
       "name": "fort.gif",
       "tags": [
         "fort",
-        "mayaproject",
+        "others",
         "architecture",
         "building",
         "church",
