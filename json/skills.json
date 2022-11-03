@@ -1,0 +1,20 @@
+{
+  "primarySkills": {
+    "UI / UX": 80,
+    "Angular": 70,
+    "React": 70,
+    "Node": 80,
+    "Cypress": 80,
+    "Jest": 80
+  },
+  "secondarySkills": {
+    "Javascript / Typescript": 90,
+    "Responsive Design": 80,
+    "HTML5": 70,
+    "Bootstrap": 70,
+    "Jquery": 70,
+    "LESS / SASS": 70,
+    "Photoshop": 50,
+    "Testing": 80
+  }
+}
