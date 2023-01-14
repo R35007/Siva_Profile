@@ -5,7 +5,7 @@
 	<title>Siva</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<script src="https://kit.fontawesome.com/1515315868.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
@@ -18,12 +18,15 @@
 		<include src="./includes/theme-editor.html"></include>
 	</div>
 
+	<!-- Nav Bar -->
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container-fluid">
 			<div class="d-flex align-items-center position-relative">
 				<a class="navbar-brand" href="index.html">Sivaraman</a>
 				<button type="button" class="btn border-none btn-settings" data-toggle="modal" data-target="#theme-editor">
-					<span class="icon-settings"></span>
+					<span class="icon-settings">
+						<i class="fa-solid fa-gear"></i>
+					</span>
 				</button>
 			</div>
 
@@ -49,6 +52,7 @@
 	</nav>
 	<div id="spacer"></div>
 
+	<!-- Hero Section -->
 	<section id="home-section" class="hero">
 		<div class="slider-item ">
 			<div class="container">
@@ -61,16 +65,53 @@
 						<div class="text">
 							<span class="subheading">Hi!</span>
 							<h1 class="mb-4 mt-3">I'm <span>Sivaraman</span></h1>
-							<h2 class="mb-4">A Full Stack Developer</h2>
+							<h2 class="mb-4">A Creative Frontend Engineer</h2>
 							<ul class="ftco-hero-social list-unstyled mr-2">
-								<li class="ftco-animate ftco-nav"><a href="#myworks-section" class="btn btn-custom light py-3 px-4">My
-										works</a></li>
-								<li class="ftco-animate"><a href="https://github.com/R35007?tab=repositories"
-										class="rounded-circle"><span class="icon-github"></span></a></li>
-								<li class="ftco-animate"><a href="https://www.instagram.com/art_glry/" class="rounded-circle"><span
-											class="icon-instagram"></span></a></li>
+								<li class="ftco-animate ftco-nav">
+									<a href="#myworks-section" class="btn btn-custom light py-3 px-4">My
+										works
+									</a>
+								</li>
+								<!-- GitHub Link -->
+								<li class="ftco-animate">
+									<a href="https://github.com/R35007" target="_blank" class="rounded-circle" title="GitHub">
+										<span title="GitHub" class="icon-github">
+											<i class="fa-brands fa-github"></i>
+										</span>
+									</a>
+								</li>
+								<!-- Node Packages Link -->
+								<li class="ftco-animate">
+									<a href="https://www.npmjs.com/settings/r35007/packages" target="_blank" class="rounded-circle"
+										title="Node Packages">
+										<span title="Node Packages" class="icon-node">
+											<i class="fa-brands fa-node-js"></i>
+										</span>
+									</a>
+								</li>
+								<!-- VSCode Extensions Link -->
+								<li class="ftco-animate">
+									<a href="https://marketplace.visualstudio.com/publishers/Thinker" target="_blank"
+										class="rounded-circle" title="VSCode Extensions">
+										<span title="VSCode Extensions" class="icon-vscode">
+											<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 512 512" version="1.1">
+												<path
+													d="M 350.820 34.520 C 348.078 35.398, 343.935 38.014, 340.820 40.833 C 337.894 43.480, 296.903 80.826, 249.728 123.823 C 202.553 166.820, 163.718 202, 163.427 202 C 163.136 202, 145.286 188.643, 123.760 172.318 C 101.258 155.253, 82.908 142.045, 80.592 141.247 C 75.918 139.637, 71.017 140.263, 66.165 143.090 C 64.330 144.159, 56.597 150.699, 48.980 157.624 C 34.368 170.909, 32 174.289, 32 181.863 C 32 189.121, 35.190 192.684, 70.250 224.580 C 88.812 241.468, 104 255.598, 104 255.981 C 104 256.364, 88.701 270.588, 70.003 287.589 C 34.531 319.840, 32 322.685, 32 330.295 C 32 337.851, 34.451 341.294, 49.531 354.926 C 57.408 362.047, 65.139 368.538, 66.711 369.351 C 71.405 371.778, 76.217 372.260, 80.618 370.744 C 82.967 369.934, 101.136 356.863, 123.805 339.673 C 145.328 323.353, 163.189 310, 163.496 310 C 163.804 310, 204.374 346.788, 253.651 391.750 C 304.277 437.942, 345.151 474.487, 347.624 475.769 C 353.313 478.719, 359.759 479.550, 365.581 478.084 C 371.433 476.610, 463.076 432.749, 468.478 428.836 C 473.113 425.478, 477.558 419.250, 478.985 414.113 C 479.638 411.764, 479.975 356.266, 479.951 255.500 C 479.919 127.639, 479.675 99.834, 478.556 96.698 C 476.585 91.171, 472.370 85.509, 468.169 82.743 C 464.649 80.427, 400.128 49.066, 377.685 38.763 C 365.366 33.108, 358.571 32.035, 350.820 34.520 M 301.500 204.932 C 265.200 232.455, 235.500 255.444, 235.500 256.018 C 235.500 256.592, 265.200 279.585, 301.500 307.114 L 367.500 357.166 367.759 306.583 C 367.902 278.762, 367.902 233.250, 367.759 205.444 L 367.500 154.888 301.500 204.932"
+													stroke="none" fill-rule="evenodd" />
+											</svg>
+										</span>
+									</a>
+								</li>
+								<!-- Linked In -->
+								<li class="ftco-animate">
+									<a href="https://www.linkedin.com/in/sivaraman-r35007/" target="_blank" class="rounded-circle"
+										title="Node Packages">
+										<span title="LinkedIn" class="icon-linkedIn">
+											<i class="fa-brands fa-linkedin"></i>
+										</span>
+									</a>
+								</li>
 							</ul>
-
 						</div>
 					</div>
 				</div>
@@ -95,33 +136,44 @@
 						<div class="col-md-12 heading-section ftco-animate">
 							<h1 class="big">About</h1>
 							<h2 class="mb-4">About Me</h2>
-							<p>I am a Full Stack developer. Loves to explore new technologies and softwares. Mostly timepass by
-								playing chess, watch movies, korean dramas, canvas paintings and pencil sketch or learn and try
-								something new.</p>
+							<p>
+								I’m currently working at a position Software Engineer III
+								<a href="https://www.verizon.com/" style="color: var(--theme-primary)" target="_blank">@Verizon</a>.
+								I enjoy problem solving and learning programming languages and frameworks. I like neat and
+								clean code with a simpler logic.
+								I like Data structure and Algorithms (beginner).
+								I'm a pet lover ❤️
+							</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span> <span><a href="./short-bio.html">Sivaraman
+								<li class="d-flex"><span>Name:</span> <span><a href="./short-bio.html" target="_blank">Sivaraman
 											K.M</a></span></li>
 								<li class="d-flex"><span>Date of birth:</span> <span>February 27</span></li>
-								<li class="d-flex"><span>Address:</span> <span><a href="https://goo.gl/maps/oLbut3fmLGFsQE7n6">23A Kaali
-											Amman Kovil st,
-											Trichy</a></span>
+								<li class="d-flex"><span>Address:</span>
+									<span>
+										<a href="https://goo.gl/maps/oLbut3fmLGFsQE7n6" target="_blank">23A Kaali Amman Kovil st, Trichy</a>
+									</span>
 								</li>
 								<li class="d-flex"><span>Zip code:</span> <span>620002</span></li>
-								<li class="d-flex"><span>Email:</span> <span><a
-											href="mailto:sendmsg2siva@gmail.com">sendmsg2siva@gmail.com</a></span></li>
-								<li class="d-flex"><span>Phone: </span> <span><a href="tel:+919384862265">+91
-											9384862265</a></span></li>
+								<li class="d-flex"><span>Email:</span>
+									<span><a href="mailto:sendmsg2siva@gmail.com">sendmsg2siva@gmail.com</a></span>
+								</li>
+								<li class="d-flex"><span>Phone: </span>
+									<span><a href="tel:+919384862265">+91 9384862265</a></span>
+								</li>
 							</ul>
 						</div>
 					</div>
 					<div class="counter-wrap d-flex mt-md-3">
 						<div class="text">
 							<p class="mb-4">
-								<span class="projects-count number">8</span>
+								<span class="projects-count number">10+</span>
 								<span>Projects complete</span>
 							</p>
-							<p><a href="Siva_resume.pdf" class="btn btn-custom dark py-3 px-3">Download
-									CV</a></p>
+							<p>
+								<a href="Sivaraman_Resume.pdf" class="btn btn-custom dark py-3 px-3 text-white" target="_blank">
+									Download CV
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -180,7 +232,7 @@
 						<span>Years</span>
 					</div>
 					<div class="timeline timeline-left transparent-bg" id="experiences">
-						
+
 					</div>
 				</div>
 			</div>
@@ -218,7 +270,9 @@
 								</div>
 								<div class="ml-4 mr-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
-										<i class="icon-pen2"></i>
+										<i class="icon-pen2">
+											<i class="fa-solid fa-graduation-cap"></i>
+										</i>
 									</div>
 								</div>
 								<div class="timeline-label invisible d-none d-md-block">
@@ -234,7 +288,9 @@
 								</div>
 								<div class="ml-4 mr-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
-										<i class="icon-pen2"></i>
+										<i class="icon-pen2">
+											<i class="fa-solid fa-graduation-cap"></i>
+										</i>
 									</div>
 								</div>
 								<div class="timeline-label  bg-dark">
@@ -274,7 +330,9 @@
 								</div>
 								<div class="ml-4 mr-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
-										<i class="icon-pen2"></i>
+										<i class="icon-pen2">
+											<i class="fa-solid fa-graduation-cap"></i>
+										</i>
 									</div>
 								</div>
 								<div class="timeline-label invisible d-none d-md-block">
@@ -290,7 +348,9 @@
 								</div>
 								<div class="ml-4 mr-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
-										<i class="icon-pen2"></i>
+										<i class="icon-pen2">
+											<i class="fa-solid fa-graduation-cap"></i>
+										</i>
 									</div>
 								</div>
 								<div class="timeline-label  bg-dark">
@@ -361,40 +421,39 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 p-1">
-					<a href="portfolio.html">
+				<div class="col-md-5 p-1">
+					<a href="https://marketplace.visualstudio.com/items?itemName=Thinker.mock-server" target="_blank">
 						<div class="img-wrapper ftco-animate">
 							<div class="thumbnail"></div>
-							<div class="img-div img" style="background-image: url(images/portfolio/Radha_Krishna_1.jpg);">
+							<div class="img-div img"
+								style="background-image: url(https://user-images.githubusercontent.com/23217228/206978718-3f4bdcbd-2e7a-4d7b-b4aa-651165a5781b.gif);">
 							</div>
 							<div class="overlay">
 								<div class="text">
-									<div class="title">Radha Krishna</div>
+									<div class="title">Mock Server</div>
+									<div class="description">Dynamically create local mock node server</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 p-1">
+					<a href="portfolio.html#gallery-4" target="_blank">
+						<div class="img-wrapper ftco-animate">
+							<div class="thumbnail"></div>
+							<div class="img-div img" style="background-image: url(images/portfolio/lion.jpg);">
+							</div>
+							<div class="overlay">
+								<div class="text">
+									<div class="title">Lion King</div>
 									<div class="description">Acrylic Painting</div>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-8 p-1">
-					<a href="https://r35007.github.io/What-To-Do/">
-						<div class="img-wrapper ftco-animate">
-							<div class="thumbnail"></div>
-							<div class="img-div img" style="background-image: url(images/portfolio/what-to-do.png);">
-							</div>
-							<div class="overlay">
-								<div class="text">
-									<div class="title">What To Do </div>
-									<div class="description">What To Do is a tool which helps you to track your daily
-										task and its status.
-									</div>
-								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-8 p-1">
-					<a href="https://r35007.github.io/Email_Template_Editing_Tool/">
+				<div class="col-md-4 p-1">
+					<a href="https://r35007.github.io/Email_Template_Editing_Tool/" target="_blank">
 						<div class="img-wrapper ftco-animate">
 							<div class="thumbnail"></div>
 							<div class="img-div img" style="background-image: url(images/portfolio/email-template-editor.png)"></div>
@@ -409,37 +468,22 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 p-1">
-					<a href="portfolio.html">
+				<div class="col-md-3 p-1">
+					<a href="portfolio.html#gallery-30" target="_blank">
 						<div class="img-wrapper ftco-animate">
 							<div class="thumbnail"></div>
 							<div class="img-div img" style="background-image: url(images/portfolio/Paper_Cutting_5.jpg)"></div>
 							<div class="overlay">
 								<div class="text">
 									<div class="title">Paper Girl</div>
-									<div class="description">Paper Cutting</div>
+									<div class="description">Paper Cut Art</div>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-6 p-1">
-					<a href="portfolio.html">
-						<div class="img-wrapper ftco-animate">
-							<div class="thumbnail"></div>
-							<div class="img-div img" style="background-image: url(images/portfolio/Sunset_Forest.jpg)">
-							</div>
-							<div class="overlay">
-								<div class="text">
-									<div class="title">Sunset Forest</div>
-									<div class="description">Acrylic Painting</div>
-								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-6 p-1">
-					<a href="portfolio.html">
+					<a href="portfolio.html#gallery-8" target="_blank">
 						<div class="img-wrapper ftco-animate">
 							<div class="thumbnail"></div>
 							<div class="img-div img" style="background-image: url(images/portfolio/Couple_in_Forest.jpg)"></div>
@@ -447,6 +491,67 @@
 								<div class="text">
 									<div class="title">Couple</div>
 									<div class="description">Canvas Acrylic Painting</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 p-1">
+					<a href="portfolio.html#gallery-35" target="_blank">
+						<div class="img-wrapper ftco-animate">
+							<div class="thumbnail"></div>
+							<div class="img-div img" style="background-image: url(images/portfolio/Paper_Cutting_10.jpg)">
+							</div>
+							<div class="overlay">
+								<div class="text">
+									<div class="title">Leaf</div>
+									<div class="description">Paper Cut Art</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 p-1">
+					<a href="portfolio.html#gallery-82" target="_blank">
+						<div class="img-wrapper ftco-animate">
+							<div class="thumbnail"></div>
+							<div class="img-div img" style="background-image: url(images/portfolio/Eye_Tears.jpg);">
+							</div>
+							<div class="overlay">
+								<div class="text">
+									<div class="title">Eye</div>
+									<div class="description">Pencil Sketch</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 p-1">
+					<a href="portfolio.html#gallery-22" target="_blank">
+						<div class="img-wrapper ftco-animate">
+							<div class="thumbnail"></div>
+							<div class="img-div img" style="background-image: url(images/portfolio/Radha_Krishna_1.jpg);">
+							</div>
+							<div class="overlay">
+								<div class="text">
+									<div class="title">Radha Krishna</div>
+									<div class="description">Acrylic Painting</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-5 p-1">
+					<a href="https://marketplace.visualstudio.com/items?itemName=Thinker.sort-json" target="_blank">
+						<div class="img-wrapper ftco-animate">
+							<div class="thumbnail"></div>
+							<div class="img-div img"
+								style="background-image: url(https://user-images.githubusercontent.com/23217228/206927500-6b5202ff-f06f-4b2c-8fd2-7a218ff5005a.gif)">
+							</div>
+							<div class="overlay">
+								<div class="text">
+									<div class="title">Sort Json</div>
+									<div class="description">Simple JSON Object and Array sort VSCode Extension.</div>
 								</div>
 							</div>
 						</div>
@@ -501,14 +606,15 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-8 ftco-animate text-center">
-							<h2>I'm a <span>Full</span> Stack <span>Developer</span></h2>
+							<h2>Here are few <span>WOW</span> things</h2>
 							<p>I like people when they say <span>WOW</span> to me. Thats why I do
 								<span>WOW</span> things or
 								things like <span>WOW</span>
 							</p>
-							<p class="mb-0"><a href="portfolio.html" class="btn btn-custom dark py-3 px-5">View
-									my
-									WOW Things</a></p>
+							<p class="mb-0">
+								<a href="portfolio.html" class="btn btn-custom dark py-3 px-5 text-white" target="_blank">View my WOW
+									Things</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -518,55 +624,74 @@
 
 
 	<!-- Contact  -->
-	<section class="js-min-fullheight d-flex align-items-center ftco-section contact-section pb-0" id="contact-section">
+	<section class="d-flex align-items-center contact-section pb-0" id="contact-section">
 		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
+			<div class="row justify-content-center">
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Contact</h1>
-					<h2 class="mb-4">Contact Me</h2>
+					<h2>Contact Me</h2>
 				</div>
 			</div>
 			<div class="row d-flex contact-info mb-5">
+				<!-- Address -->
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon overflow-hidden">
 							<a class="d-flex align-items-center justify-content-center w-100 h-100"
-								href="https://goo.gl/maps/oLbut3fmLGFsQE7n6"><span class="icon-map-signs"></span></a>
+								href="https://goo.gl/maps/oLbut3fmLGFsQE7n6" target="_blank">
+								<span class="icon-map-signs">
+									<i class="fa-solid fa-location-dot"></i>
+								</span>
+							</a>
 						</div>
 						<h3 class="mb-4">Address</h3>
-						<p><a href="https://goo.gl/maps/oLbut3fmLGFsQE7n6">23A Kaali Amman Kovil st,
-								Trichy</a></p>
+						<p><a href="https://goo.gl/maps/oLbut3fmLGFsQE7n6" target="_blank">23A Kaali Amman Kovil st, Trichy -
+								620002</a></p>
 					</div>
 				</div>
+				<!-- Contact -->
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon overflow-hidden">
-							<a class="d-flex align-items-center justify-content-center w-100 h-100" href="tel:+919384862265"><span
-									class="icon-phone2"></span></a>
+							<a class="d-flex align-items-center justify-content-center w-100 h-100" href="tel:+919384862265"
+								target="_blank">
+								<span class="icon-phone2">
+									<i class="fa-solid fa-phone"></i>
+								</span>
+							</a>
 						</div>
 						<h3 class="mb-4">Contact Number</h3>
 						<p><a href="tel:+919384862265">+91 9384862265</a></p>
 					</div>
 				</div>
+				<!-- Email -->
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon overflow-hidden">
 							<a class="d-flex align-items-center justify-content-center w-100 h-100"
-								href="mailto:sendmsg2siva@gmail.com"><span class="icon-paper-plane"
-									style="margin-left: -7px;"></span></a>
+								href="mailto:sendmsg2siva@gmail.com" target="_blank">
+								<span class="icon-paper-plane">
+									<i class="fa-regular fa-paper-plane"></i>
+								</span>
+							</a>
 						</div>
 						<h3 class="mb-4">Email Address</h3>
 						<p><a href="mailto:sendmsg2siva@gmail.com">sendmsg2siva@gmail.com</a></p>
 					</div>
 				</div>
+				<!-- GitHub -->
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 					<div class="align-self-stretch box p-4 text-center">
 						<div class="icon overflow-hidden">
-							<a class="d-flex align-items-center justify-content-center w-100 h-100"
-								href="https://github.com/R35007"><span class="icon-github"></span></a>
+							<a class="d-flex align-items-center justify-content-center w-100 h-100" href="https://github.com/R35007"
+								target="_blank">
+								<span class="icon-github">
+									<i class="fa-brands fa-github"></i>
+								</span>
+							</a>
 						</div>
 						<h3 class="mb-4">Git Hub</h3>
-						<p><a href="https://github.com/R35007">https://github.com/R35007</a></p>
+						<p><a href="https://github.com/R35007" target="_blank">https://github.com/R35007</a></p>
 					</div>
 				</div>
 			</div>

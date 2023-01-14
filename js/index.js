@@ -338,13 +338,13 @@ var initScripts = () => {
             </div>
             <p><b>Technologies used : </b> ${project.techStack}</p>
             <p class="${project.gitHubUrl ? 'd-block' : 'd-none'}">
-              <b>GitHub : </b> <a href="${project.gitHubUrl}"class="link">${project.gitHubUrl}</a>
+              <b>GitHub : </b> <a href="${project.gitHubUrl}" class="link" target="_blank">${project.gitHubUrl}</a>
 						</p>
             <p class="${project.nodeUrl ? 'd-block' : 'd-none'}">
-              <b>Node Package : </b> <a href="${project.nodeUrl}"class="link">${project.nodeUrl}</a>
+              <b>Node Package : </b> <a href="${project.nodeUrl}" class="link" target="_blank">${project.nodeUrl}</a>
 						</p>
             <p class="${project.vsCodeExtensionUrl ? 'd-block' : 'd-none'}">
-              <b>VS COde Extension : </b> <a href="${project.vsCodeExtensionUrl}"class="link">${project.vsCodeExtensionUrl}</a>
+              <b>VS COde Extension : </b> <a href="${project.vsCodeExtensionUrl}" class="link" target="_blank">${project.vsCodeExtensionUrl}</a>
 						</p>
           </div>
         </div>
@@ -399,13 +399,17 @@ var initScripts = () => {
         <div class="timeline-entry-inner color-${index}">
           <div class="ml-4 d-none d-md-block">
             <div class="timeline-icon mx-auto">
-              <i class="icon-pen2"></i>
+              <i class="icon-pen2">
+                <svg width="25px" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705 705" version="1.1">
+                  <path d="M 244 13.531 C 244 13.823, 256.262 38.573, 271.250 68.530 L 298.500 122.998 353.248 122.999 L 407.996 123 434.998 69.004 C 449.849 39.306, 462 14.556, 462 14.004 C 462 13.338, 425.263 13, 353 13 C 293.050 13, 244 13.239, 244 13.531 M 312.651 193.222 C 302.627 228.307, 300.272 237.693, 301.258 238.649 C 304.465 241.760, 432.306 334.027, 432.769 333.564 C 433.059 333.274, 421.465 291.629, 407.005 241.018 L 380.714 149 353 149 L 325.286 149 312.651 193.222 M 285.756 287.254 C 281.497 302.239, 277.145 317.524, 276.086 321.219 L 274.159 327.938 373.230 399.986 C 427.718 439.612, 472.427 471.907, 472.581 471.752 C 473.091 471.243, 443.241 367.839, 442.361 367.065 C 439.290 364.364, 294.979 260.001, 294.320 260.004 C 293.869 260.007, 290.015 272.269, 285.756 287.254 M 267.505 351.250 C 264.985 358.547, 248.978 416.604, 249.202 417.637 C 249.473 418.885, 456.961 570.489, 457.450 569.796 C 457.565 569.633, 464.373 561.399, 472.580 551.498 C 480.786 541.596, 488.005 532.821, 488.622 531.998 C 489.484 530.848, 488.902 527.553, 486.116 517.814 L 482.488 505.128 375.881 427.564 C 317.247 384.904, 268.973 350, 268.605 350 C 268.238 350, 267.743 350.563, 267.505 351.250 M 241.052 443.750 C 240.489 445.813, 234.676 466.175, 228.136 489 C 218.894 521.253, 216.495 530.830, 217.372 531.980 C 223.652 540.220, 352.381 694, 352.999 694 C 354.021 694, 443 587.361, 443 586.136 C 443 585.292, 243.795 440, 242.637 440 C 242.329 440, 241.616 441.688, 241.052 443.750" stroke="none" fill-rule="evenodd"/>
+                </svg>
+              </i>
             </div>
           </div>
           <div class="timeline-label pt-0 mb-4">
             <h2><span class="title"></a>${exp.designation}</span></h2>
             <p class="sub-title">
-              <span>${exp.from} - ${exp.to}</span> - <a href="${exp.link}">@${exp.company}</a>
+              <span>${exp.from} - ${exp.to}</span> - <a href="${exp.link}" target="_blank">@${exp.company}</a>
             </p>
             <p>${exp.description}</p>
           </div>
@@ -427,7 +431,6 @@ var initScripts = () => {
 
   $.getJSON("./json/projects.json", function (projects) {
     setProjects(projects);
-    $(".projects-count").text(projects.length);
     contentWayPoint();
   });
 
