@@ -53,7 +53,7 @@
 	<div id="spacer"></div>
 
 	<!-- Hero Section -->
-	<section id="home-section" class="hero">
+	<section id="home-section" class="hero overflow-hidden">
 		<div class="slider-item ">
 			<div class="container">
 				<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end">
@@ -82,8 +82,7 @@
 								</li>
 								<!-- Node Packages Link -->
 								<li class="ftco-animate">
-									<a href="https://www.npmjs.com/~r35007" target="_blank" class="rounded-circle"
-										title="Node Packages">
+									<a href="https://www.npmjs.com/~r35007" target="_blank" class="rounded-circle" title="Node Packages">
 										<span title="Node Packages" class="icon-node">
 											<i class="fa-brands fa-node-js"></i>
 										</span>
@@ -398,15 +397,38 @@
 				<div class="col-md-10 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Projects</h1>
 					<h2 class="mb-4">Projects</h2>
-					<p>Here are some of my projects details which helps to gain my experience and knowledge. </br> Note : <span
-							class="primary">*</span> marked
-						projects are self projects</p>
+					<p>Here are some exciting insights about my projects that have helped me acquire valuable experience and technical knowledge in all phases of development.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12 p-0 accordion" id="projects">
-					<!-- Projects will be auto generated here -->
-				</div>
+				<section class="row col-12">
+					<div class="col ftco-animate" data-animate-effect="fadeInLeft">
+						<h4 class="mb-3 text-nowrap">Personal Projects</h3>
+					</div>
+					<div class="col text-right ftco-animate d-none d-md-block" data-animate-effect="fadeInRight">
+						<a class="btn btn-primary rounded rounded-2 outline-none shadow-none" href="#personal-projects" role="button" data-slide="prev">
+							<i class="fa fa-arrow-left"></i>
+						</a>
+						<a class="btn btn-primary rounded rounded-2 outline-none shadow-none" href="#personal-projects" role="button" data-slide="next">
+							<i class="fa fa-arrow-right"></i>
+						</a>
+					</div>
+					<div class="col-12 mx-2">
+						<div id="personal-projects" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<!-- Projects will be auto generated here -->
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="row col-12">
+					<div class="col ftco-animate" data-animate-effect="fadeInLeft">
+						<h4 class="mb-3">Company Projects</h4>
+					</div>
+					<div class="col-12 mx-2 accordion" id="company-projects">
+						<!-- Projects will be auto generated here -->
+					</div>
+				</section>
 			</div>
 		</div>
 	</section>

@@ -120,10 +120,9 @@ var setExperience = function () {
   $(".experience-number").text(experience);
 };
 
-var initScripts = () => {
-  themeChanger();
+function initScripts() {
 
-  var fullHeight = function () {
+  function fullHeight() {
     const navHeight = $("#ftco-navbar").height();
     const winHeight = $(window).height();
     $("#spacer").css("height", navHeight);
@@ -136,10 +135,9 @@ var initScripts = () => {
       $(".js-min-fullheight").css("min-height", winHeight - navHeight * 2);
     });
   };
-  fullHeight();
 
   // Burger Menu
-  var burgerMenu = function () {
+  function burgerMenu() {
     $("body").on("click", ".js-fh5co-nav-toggle", function (event) {
       event.preventDefault();
       if ($("#ftco-nav").is(":visible")) {
@@ -149,9 +147,8 @@ var initScripts = () => {
       }
     });
   };
-  burgerMenu();
 
-  var onPageClick = function () {
+  function onPageClick() {
     $(document).on("click", '.ftco-nav a[href^="#"]', function (event) {
       event.preventDefault();
       $("#ftco-nav").removeClass("show");
@@ -166,9 +163,8 @@ var initScripts = () => {
       );
     });
   };
-  onPageClick();
 
-  var onSkillsCollapse = function () {
+  function onSkillsCollapse() {
     $(document).on(
       "click",
       '.view-skills a[href^="#"]:not(.collapsed)',
@@ -184,10 +180,9 @@ var initScripts = () => {
       }
     );
   };
-  onSkillsCollapse();
 
   // scroll
-  var scrollWindow = function () {
+  function scrollWindow() {
     $(window).scroll(function () {
       var $w = $(this),
         st = $w.scrollTop(),
@@ -216,9 +211,8 @@ var initScripts = () => {
       }
     });
   };
-  scrollWindow();
 
-  var CircleProgress = function () {
+  function CircleProgress() {
     $("#skills-section").waypoint(
       function (direction) {
         if (direction === "down" && !$(this).hasClass("ftco-animated")) {
@@ -247,7 +241,7 @@ var initScripts = () => {
     );
   };
 
-  var EducationLineProgress = function () {
+  function EducationLineProgress() {
     $("#education-section").waypoint(
       function (direction) {
         if (direction === "down" && !$(this).hasClass("ftco-animated")) {
@@ -261,9 +255,8 @@ var initScripts = () => {
       { offset: "95%" }
     );
   };
-  EducationLineProgress();
 
-  var SkillLineProgress = function () {
+  function SkillLineProgress() {
     $("#skill-toggle").on('click', function () {
       setTimeout(function () {
         $("#secondary-skills .progress-bar").each(function () {
@@ -275,7 +268,7 @@ var initScripts = () => {
     });
   };
 
-  var contentWayPoint = function () {
+  function contentWayPoint() {
     var i = 0;
     $(".ftco-animate").waypoint(
       function (direction) {
@@ -311,14 +304,32 @@ var initScripts = () => {
     );
   };
 
-  var setProjects = function (projects) {
+  function onMouseSlideCarousel() {
+    var carousel = document.getElementById("personal-projects");
+    var startX, endX;
+
+    carousel.addEventListener("touchstart", function (event) {
+      startX = event.touches[0].clientX;
+    });
+
+    carousel.addEventListener("touchend", function (event) {
+      endX = event.changedTouches[0].clientX;
+      if (startX > endX) {
+        $(this).carousel("next");
+      } else {
+        $(this).carousel("prev");
+      }
+    });
+  }
+
+  function setCompanyProjects(projects) {
     projects.forEach(function (project, index) {
       const timeline = project.to ? `${project.from} - ${project.to}` : project.from
-      $("#projects").append(
+      $("#company-projects").append(
         `<div class="card ftco-animate">
-        <div class="card-header" id="heading${index}">
-          <a data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true"
-            aria-controls="collapse${index}" class="d-flex align-items-center collapsed">
+        <div class="card-header" id="company-projects-heading-${index}">
+          <a data-toggle="collapse" data-target="#company-projects-collapse-${index}" aria-expanded="true"
+            aria-controls="company-projects-collapse-${index}" class="d-flex align-items-center collapsed">
             <h2 class="mb-0 flex-1">
               <span>${project.title} <b class="${project.self ? 'd-inline primary' : 'd-none'}">*</b> </span>
               <div class="date d-sm-none">${timeline}</div>
@@ -328,7 +339,7 @@ var initScripts = () => {
           </a>
         </div>
 
-        <div id="collapse${index}" class="collapse" aria-labelledby="heading${index}" data-parent="#projects">
+        <div id="company-projects-collapse-${index}" class="collapse" aria-labelledby="company-projects-heading-${index}" data-parent="#company-projects">
           <div class="card-body">
             <p>${project.description}</p>
             <div class="row no-gutters mb-3">
@@ -352,8 +363,77 @@ var initScripts = () => {
       );
     });
   };
+  function setPersonalProjects(personalProjects) {
 
-  var setPrimarySkills = function (skills) {
+    const chunkArray = (arr, chunkSize) =>
+      Array.from({ length: Math.ceil(arr.length / chunkSize) }, (_, i) =>
+        arr.slice(i * chunkSize, i * chunkSize + chunkSize)
+      );
+
+    chunkArray(personalProjects, 2).forEach((projects, index) => {
+      const projectCards = projects.map((project, index) => `
+          <div class="col px-0 mb-3 ${index%2 ? "d-none d-md-block" : ""}">
+            <div class="card border-0 h-100">
+              <div class="card-body bg-dark d-flex flex-column">
+                <h5 class="card-title text-primary">${project.title}</h5>
+                <p class="card-text flex-1 mb-4">${project.description}</p>
+                <ul class="project-links m-0 list-unstyled d-flex align-items-center gap-2">
+                  <!-- GitHub Link -->
+                  <li class="${project.gitHubUrl ? "d-block" : "d-none"}">
+                    <a href="${project.gitHubUrl}" target="_blank" class="rounded-circle" title="GitHub">
+                      <span title="GitHub" class="icon-github">
+                        <i class="fa-brands fa-github"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <!-- Node Packages Link -->
+                  <li class="${project.nodeUrl ? "d-block" : "d-none"}">
+                    <a href="${project.nodeUrl}" target="_blank" class="rounded-circle" title="Node Packages">
+                      <span title="Node Packages" class="icon-node">
+                        <i class="fa-brands fa-node-js"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <!-- Website Link -->
+                  <li class="${project.webUrl ? "d-block" : "d-none"}">
+                    <a href="${project.webUrl}" target="_blank" class="rounded-circle" title="Web Page">
+                      <span title="Web Page" class="icon-node">
+                        <i class="fa-solid fa-globe"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <!-- VSCode Extensions Link -->
+                  <li class="${project.vsCodeExtensionUrl ? "d-block" : "d-none"}">
+                    <a href="${project.vsCodeExtensionUrl}" target="_blank"
+                      class="rounded-circle" title="VSCode Extensions">
+                      <span title="VSCode Extensions" class="icon-vscode">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 512 512" version="1.1">
+                          <path
+                            d="M 350.820 34.520 C 348.078 35.398, 343.935 38.014, 340.820 40.833 C 337.894 43.480, 296.903 80.826, 249.728 123.823 C 202.553 166.820, 163.718 202, 163.427 202 C 163.136 202, 145.286 188.643, 123.760 172.318 C 101.258 155.253, 82.908 142.045, 80.592 141.247 C 75.918 139.637, 71.017 140.263, 66.165 143.090 C 64.330 144.159, 56.597 150.699, 48.980 157.624 C 34.368 170.909, 32 174.289, 32 181.863 C 32 189.121, 35.190 192.684, 70.250 224.580 C 88.812 241.468, 104 255.598, 104 255.981 C 104 256.364, 88.701 270.588, 70.003 287.589 C 34.531 319.840, 32 322.685, 32 330.295 C 32 337.851, 34.451 341.294, 49.531 354.926 C 57.408 362.047, 65.139 368.538, 66.711 369.351 C 71.405 371.778, 76.217 372.260, 80.618 370.744 C 82.967 369.934, 101.136 356.863, 123.805 339.673 C 145.328 323.353, 163.189 310, 163.496 310 C 163.804 310, 204.374 346.788, 253.651 391.750 C 304.277 437.942, 345.151 474.487, 347.624 475.769 C 353.313 478.719, 359.759 479.550, 365.581 478.084 C 371.433 476.610, 463.076 432.749, 468.478 428.836 C 473.113 425.478, 477.558 419.250, 478.985 414.113 C 479.638 411.764, 479.975 356.266, 479.951 255.500 C 479.919 127.639, 479.675 99.834, 478.556 96.698 C 476.585 91.171, 472.370 85.509, 468.169 82.743 C 464.649 80.427, 400.128 49.066, 377.685 38.763 C 365.366 33.108, 358.571 32.035, 350.820 34.520 M 301.500 204.932 C 265.200 232.455, 235.500 255.444, 235.500 256.018 C 235.500 256.592, 265.200 279.585, 301.500 307.114 L 367.500 357.166 367.759 306.583 C 367.902 278.762, 367.902 233.250, 367.759 205.444 L 367.500 154.888 301.500 204.932"
+                            stroke="none" fill-rule="evenodd" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      `).join("");
+
+      $("#personal-projects .carousel-inner").append(
+        `<div class="carousel-item ${!index && "active"}">
+          <div class="row gap-1 mx-0">
+            ${projectCards}
+          </div>
+        </div>`
+      );
+    });
+
+    onMouseSlideCarousel();
+  };
+
+  function setPrimarySkills(skills) {
     Object.entries(skills).forEach(function ([skill, rating]) {
       $("#primary-skills").append(
         `<div class="col-6 col-md-4 col-lg-2 mb-4 ftco-animate">
@@ -374,7 +454,7 @@ var initScripts = () => {
     });
     CircleProgress();
   }
-  var setSecondarySkills = function (skills) {
+  function setSecondarySkills(skills) {
     Object.entries(skills).forEach(function ([skill, rating]) {
       $("#secondary-skills").append(
         `<div class="col-md-6">
@@ -392,7 +472,7 @@ var initScripts = () => {
     SkillLineProgress();
   }
 
-  var setExperienceDetails = function (experiences) {
+  function setExperienceDetails(experiences) {
     experiences.forEach((exp, index) => {
       $("#experiences").append(
         `<article class="timeline-entry ftco-animate animate-box" data-animate-effect="fadeInRight">
@@ -429,8 +509,17 @@ var initScripts = () => {
     )
   }
 
+  themeChanger();
+  fullHeight();
+  burgerMenu();
+  onPageClick();
+  onSkillsCollapse();
+  scrollWindow();
+  EducationLineProgress();
+
   $.getJSON("./json/projects.json", function (projects) {
-    setProjects(projects);
+    setCompanyProjects(projects.companyProjects);
+    setPersonalProjects(projects.personalProjects);
     contentWayPoint();
   });
 

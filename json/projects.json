@@ -1,125 +1,162 @@
-[
-  {
-    "title": "Mock Server - VSCode Extension",
-    "from": "Apr 2021",
-    "description": "Get a full REST API with zero coding in less than 30 seconds (seriously) Created with <3 for front-end developers who need a quick back-end for prototyping and mocking. Now also available as a VSCodeExtension thinker.mock-server.",
-    "techStack": "Typescript, Node, VS Code extension API",
-    "nodeUrl": "https://www.npmjs.com/package/@r35007/mock-server",
-    "gitHubUrl": "https://r35007.github.io/Mock-Server",
-    "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.mock-server",
-    "self": true
-  },
-  {
-    "title": "Create App - VSCode Extension",
-    "from": "Oct 2021",
-    "description": "Easily Create any UI App with Official Starter Templates or boilerplate's using CLI.",
-    "techStack": "Typescript, Node, VS Code extension API",
-    "gitHubUrl": "https://github.com/R35007/create-app-support",
-    "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.create-app",
-    "self": true
-  },
-  {
-    "title": "Sort JSON - VSCode Extension",
-    "from": "Nov 2021",
-    "description": "Simple JSON Object and Array sort.",
-    "techStack": "Typescript, Node, VS Code extension API",
-    "gitHubUrl": "https://github.com/R35007/sort-json-vscode-extension.git",
-    "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.sort-json",
-    "self": true
-  },
-  {
-    "title": "Data Size Count - VSCode Extension",
-    "from": "Oct 2020",
-    "description": "This is a VS Code extension which helps to show the number of line and words count in a selected text and also give the array and object size of the selected Json.",
-    "techStack": "Typescript, Node, VS Code extension API",
-    "gitHubUrl": "https://github.com/R35007/data-size-count",
-    "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.data-size-count",
-    "self": true
-  },
-  {
-    "title": "Mock Server - Node Package",
-    "from": "Apr 2021",
-    "description": "Get a full REST API with zero coding in less than 30 seconds (seriously) Created with <3 for front-end developers who need a quick back-end for prototyping and mocking. Now also available as a VSCodeExtension thinker.mock-server.",
-    "techStack": "Typescript, Node",
-    "nodeUrl": "https://www.npmjs.com/package/@r35007/mock-server",
-    "gitHubUrl": "https://r35007.github.io/Mock-Server",
-    "self": true
-  },
-  {
-    "title": "What To Do",
-    "from": "Jun 2019",
-    "description": "What To Do is a tool which helps you to track your daily task and its status. This tool will carry over the previous days task to current date if the task is not completed. Your task details can be exported to excel.",
-    "techStack": "React, Node, Kendo UI, Typescript, Express, OverNight JS.",
-    "gitHubUrl": " https://r35007.github.io/What-To-Do/",
-    "self": true
-  },
-  {
-    "title": "Virtual Network System Protocol - VNSP",
-    "from": "Mar 2020",
-    "to": "Jan 2021",
-    "description": "A Web app tool to allocate or configure bandwidth for the specific customer",
-    "company": "Verizon",
-    "client": "Enterprise customers",
-    "teamSize": "7",
-    "techStack": "Angular 11, bootstrap, fake-response-server, Java springboot"
-  },
-  {
-    "title": "Canvas Application",
-    "from": "Dec 2019",
-    "to": "Mar 2020",
-    "description": "A Task management tool which helps to assign, suspend task tc.. for the internal purpose.",
-    "company": "Verizon",
-    "client": "Internal employees",
-    "teamSize": "5",
-    "techStack": "Angular 7, bootstrap, Json-server, Java springboot"
-  },
-  {
-    "title": "Ace Tool",
-    "from": "Jun 2019",
-    "to": "Dec 2020",
-    "description": "It is an import and export tool to transfer data between JSON to google sheet and vise versa. The content author provide the content in the google sheet which will then converted to a json object to run the online education tool.",
-    "company": "Lister Technologies",
-    "client": "An American Research And Development Team of Lexia group of companies",
-    "teamSize": "10",
-    "techStack": "Electron, Node, ECMA script, HTML5, SCSS"
-  },
-  {
-    "title": "Powerup - Online Educational Tool",
-    "from": "Apr 2019",
-    "to": "Dec 2019",
-    "description": "An online english language communication education tool. The content author provide their content in the third party tool called Contentfull. Using Contentfull API we provide data service to the tool and run the application.",
-    "company": "Lister Technologies",
-    "client": "An American Research And Development Team of Lexia group of company",
-    "teamSize": "10",
-    "techStack": "React, Typescript, ContentFull API, Node, File Systems, MongoDB, Dynamic Form Binding, Modal Creation"
-  },
-  {
-    "title": "Incentive Pay Management",
-    "from": "Jan 2018",
-    "to": "Apr 2019",
-    "description": "A tool to manage the incentive pay for the customers across different regions. The region admin can configure different constraints for their legacy customer like increasing the incentive per hour basis or by speed basis",
-    "company": "Lister Technologies",
-    "client": "An American Retailing Company - Kroger",
-    "teamSize": "15",
-    "techStack": "Angular 7, bootstrap, Json-server, MongoDB, Java springboot, PrimeNg, ChartJS, Dashboards, PDF Export, Report Generation."
-  },
-  {
-    "title": "Email Template Editing Tool",
-    "from": "Sep 2017",
-    "to": "Jan 2018",
-    "description": "A tool similar to word press which helps to build a standard Email Template",
-    "techStack": "HTML5, Css3, Jquery, Node.",
-    "gitHubUrl": "https://r35007.github.io/Email_Template_Editing_Tool/",
-    "self": true
-  },
-  {
-    "title": "UI/UX Designer",
-    "from": "Apr 2017",
-    "to": "Jan 2018",
-    "description": "Build a standard Email Templates for different clients which is compatible for all different browsers and versions",
-    "company": "Lister Technologies",
-    "client": "Lenova, Perricone, Maybyline etc..",
-    "teamSize": "7",
-    "techStack": "HTML5, CSS3, Photoshop, Invision, Bootstrap, Jquery."
-  }
-]
+{
+  "personalProjects": [
+    {
+      "title": "Mock Server",
+      "description": "Get a full REST API with zero coding in less than 30 seconds (seriously) Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.",
+      "techStack": "Typescript, Node, VS Code extension API",
+      "nodeUrl": "https://www.npmjs.com/package/@r35007/Mock Server",
+      "gitHubUrl": "https://r35007.github.io/Mock-Server",
+      "webUrl": "https://user-images.githubusercontent.com/23217228/206978718-3f4bdcbd-2e7a-4d7b-b4aa-651165a5781b.gif",
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.Mock Server"
+    },
+    {
+      "title": "Create App",
+      "description": "This is a vscode extension which helps to easily create any UI App with official starter templates or boilerplate's using CLI.",
+      "techStack": "Typescript, Node, VS Code extension API",
+      "gitHubUrl": "https://github.com/R35007/create-app-support",
+      "webUrl": "https://raw.githubusercontent.com/R35007/create-app-support/master/images/previews/preview_v3.0.0.gif",
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.create-app"
+    },
+    {
+      "title": "Sort JSON",
+      "description": "Simple JSON Object and Array sort vscode extension. This extension also supports custom sorting of JSON objects.",
+      "techStack": "Typescript, Node, VS Code extension API",
+      "gitHubUrl": "https://github.com/R35007/sort-json-vscode-extension.git",
+      "webUrl": "https://user-images.githubusercontent.com/23217228/206927500-6b5202ff-f06f-4b2c-8fd2-7a218ff5005a.gif",
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.sort-json"
+    },
+    {
+      "title": "Properties",
+      "description": "Get the image, audio, video or any file and folder properties such as size, contains, album, dimensions, durations etc...",
+      "techStack": "Typescript, Node, VS Code extension API",
+      "gitHubUrl": "https://github.com/R35007/fs-props",
+      "nodeUrl": "https://www.npmjs.com/package/fs-props",
+      "webUrl": "https://user-images.githubusercontent.com/23217228/205488891-68401b6d-6c42-438f-80ec-cac31de3cffd.gif",
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.properties"
+    },
+    {
+      "title": "Data Size Count",
+      "description": "This is a VS Code extension which helps to show the number of line and words count in a selected text and also give the array and object size of the selected Json.",
+      "techStack": "Typescript, Node, VS Code extension API",
+      "gitHubUrl": "https://github.com/R35007/data-size-count",
+      "webUrl": "https://user-images.githubusercontent.com/23217228/205437199-a879dc6e-32b6-46b9-abc2-ec20dd33c4f1.gif",
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.data-size-count"
+    },
+    {
+      "title": "Font Awesome",
+      "description": "View and Copy all free Font Awesome icons inside vscode. Also supports save icon as svg or png format.",
+      "techStack": "Typescript, Node, VS Code extension API",
+      "gitHubUrl": "https://github.com/R35007/font-awesome-vscode-extension",
+      "webUrl": "https://user-images.githubusercontent.com/23217228/205364534-54db2ec4-cf74-4e8c-a72e-7a7bd178f964.gif",
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.font-awesome"
+    },
+    {
+      "title": "What To Do",
+      "description": "What To Do is an efficient tool that assists us in keeping a check on your daily tasks and their progress.",
+      "techStack": "React, Node, Kendo UI, Typescript, Express, OverNight JS.",
+      "gitHubUrl": " https://r35007.github.io/What-To-Do/",
+      "webUrl": "https://user-images.githubusercontent.com/23217228/67146175-1c039300-f2a6-11e9-84d7-3c7d65f3803c.png"
+    },
+    {
+      "title": "Email Template Editing Tool",
+      "description": "A tool similar to word press which helps to build a standard Email Template",
+      "techStack": "HTML5, Css3, Jquery, Node.",
+      "gitHubUrl": "https://github.com/R35007/Email_Template_Editing_Tool",
+      "webUrl": "https://r35007.github.io/Email_Template_Editing_Tool/"
+    },
+    {
+      "title": "React Custom Hooks",
+      "description": "As part of learning React Custom hooks, I have created multiple useful react custom hooks.",
+      "techStack": "React",
+      "gitHubUrl": "https://github.com/R35007/React-Custom-Hooks"
+    },
+    {
+      "title": "DSA using Javascript",
+      "description": "Here are few DSA using javascript.",
+      "techStack": "Javascript, ECMA script",
+      "gitHubUrl": "https://github.com/R35007/DataStructure-and-Algorithms-using-Javascript"
+    }
+  ],
+  "companyProjects": [
+    {
+      "title": "Digital Sales",
+      "from": "Mar 2021",
+      "to": "Present",
+      "description": "Working on digital sales page for mobile phones and tablets with Verizon 5G network.",
+      "company": "Verizon",
+      "client": "End users",
+      "teamSize": "100+",
+      "techStack": "React, Material UI, Mock Server, Jest, Cypress, Pre commit Hooks, EsLints"
+    },
+    {
+      "title": "Decommission Equipment",
+      "from": "Sep 2020",
+      "to": "Mar 2021",
+      "description": "This tool helps to allocate router or decommission router connection for a sector in company. This tool is handled by the network admins.",
+      "company": "Verizon",
+      "client": "Enterprise customers",
+      "teamSize": "10",
+      "techStack": "React, Material UI, Mock Server, Java springboot"
+    },
+    {
+      "title": "Virtual Network System Protocol - VNSP",
+      "from": "Mar 2020",
+      "to": "Sep 2020",
+      "description": "A Web app tool to allocate or configure bandwidth for the specific customer",
+      "company": "Verizon",
+      "client": "Enterprise customers",
+      "teamSize": "7",
+      "techStack": "Angular 11, bootstrap, Mock Server, Java springboot"
+    },
+    {
+      "title": "Canvas Application",
+      "from": "Dec 2019",
+      "to": "Mar 2020",
+      "description": "A Task management tool which helps to assign, suspend task tc.. for the internal purpose.",
+      "company": "Verizon",
+      "client": "Internal employees",
+      "teamSize": "5",
+      "techStack": "Angular 7, bootstrap, Json-server, Java springboot"
+    },
+    {
+      "title": "Ace Tool",
+      "from": "Jun 2019",
+      "to": "Dec 2020",
+      "description": "It is an import and export tool to transfer data between JSON to google sheet and vise versa. The content author provide the content in the google sheet which will then converted to a json object to run the online education tool.",
+      "company": "Lister Technologies",
+      "client": "An American Research And Development Team of Lexia group of companies",
+      "teamSize": "10",
+      "techStack": "Electron, Node, ECMA script, HTML5, SCSS"
+    },
+    {
+      "title": "Powerup - Online Educational Tool",
+      "from": "Apr 2019",
+      "to": "Dec 2019",
+      "description": "An online english language communication education tool. The content author provide their content in the third party tool called Contentfull. Using Contentfull API we provide data service to the tool and run the application.",
+      "company": "Lister Technologies",
+      "client": "An American Research And Development Team of Lexia group of company",
+      "teamSize": "10",
+      "techStack": "React, Typescript, ContentFull API, Node, File Systems, MongoDB, Dynamic Form Binding, Modal Creation"
+    },
+    {
+      "title": "Incentive Pay Management",
+      "from": "Jan 2018",
+      "to": "Apr 2019",
+      "description": "A tool to manage the incentive pay for the customers across different regions. The region admin can configure different constraints for their legacy customer like increasing the incentive per hour basis or by speed basis",
+      "company": "Lister Technologies",
+      "client": "An American Retailing Company - Kroger",
+      "teamSize": "15",
+      "techStack": "Angular 7, bootstrap, Json-server, MongoDB, Java springboot, PrimeNg, ChartJS, Dashboards, PDF Export, Report Generation."
+    },
+    {
+      "title": "UI/UX Designer",
+      "from": "Apr 2017",
+      "to": "Jan 2018",
+      "description": "Build a standard Email Templates for different clients which is compatible for all different browsers and versions",
+      "company": "Lister Technologies",
+      "client": "Lenova, Perricone, Maybyline etc..",
+      "teamSize": "7",
+      "techStack": "HTML5, CSS3, Photoshop, Invision, Bootstrap, Jquery."
+    }
+  ]
+}
