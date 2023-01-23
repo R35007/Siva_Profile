@@ -4,10 +4,10 @@
       "title": "Mock Server",
       "description": "Get a full REST API with zero coding in less than 30 seconds (seriously) Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.",
       "techStack": "Typescript, Node, VS Code extension API",
-      "nodeUrl": "https://www.npmjs.com/package/@r35007/Mock Server",
-      "gitHubUrl": "https://r35007.github.io/Mock-Server",
+      "nodeUrl": "https://www.npmjs.com/package/@r35007/mock-server",
+      "gitHubUrl": "https://r35007.github.io/mock-server",
       "webUrl": "https://user-images.githubusercontent.com/23217228/206978718-3f4bdcbd-2e7a-4d7b-b4aa-651165a5781b.gif",
-      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.Mock Server"
+      "vsCodeExtensionUrl": "https://marketplace.visualstudio.com/items?itemName=Thinker.mock-server"
     },
     {
       "title": "Create App",
