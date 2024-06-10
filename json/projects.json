@@ -79,9 +79,19 @@
   ],
   "companyProjects": [
     {
+      "title": "Universal Component Library",
+      "from": "May 2023",
+      "to": "Present",
+      "description": "I'm working as a Project lead in offshore. I take care of customer onboarding, development and deployment of this library",
+      "company": "Ford Motor Company",
+      "client": "Ford Project Team Developers",
+      "teamSize": "50+",
+      "techStack": " ReactJS, Server-side rendering, Singe SPA, Styled Components, Theming, NodeJS, AEM, JAVA, Jest, Cypress, Tekton pipeline, GitHub Actions"
+    },
+    {
       "title": "Digital Sales",
       "from": "Mar 2021",
-      "to": "Present",
+      "to": "May 2023",
       "description": "Working on digital sales page for mobile phones and tablets with Verizon 5G network.",
       "company": "Verizon",
       "client": "End users",
@@ -96,7 +106,7 @@
       "company": "Verizon",
       "client": "Enterprise customers",
       "teamSize": "10",
-      "techStack": "React, Material UI, Mock Server, Java springboot"
+      "techStack": "React, Material UI, Mock Server, Java spring boot"
     },
     {
       "title": "Virtual Network System Protocol - VNSP",
@@ -106,7 +116,7 @@
       "company": "Verizon",
       "client": "Enterprise customers",
       "teamSize": "7",
-      "techStack": "Angular 11, bootstrap, Mock Server, Java springboot"
+      "techStack": "React, bootstrap, Mock Server, Java spring boot"
     },
     {
       "title": "Canvas Application",
@@ -154,7 +164,7 @@
       "to": "Jan 2018",
       "description": "Build a standard Email Templates for different clients which is compatible for all different browsers and versions",
       "company": "Lister Technologies",
-      "client": "Lenova, Perricone, Maybyline etc..",
+      "client": "Lenova, Perricone, Maybelline etc..",
       "teamSize": "7",
       "techStack": "HTML5, CSS3, Photoshop, Invision, Bootstrap, Jquery."
     }
