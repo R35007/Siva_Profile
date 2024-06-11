@@ -89,10 +89,19 @@
       "techStack": " ReactJS, Server-side rendering, Singe SPA, Styled Components, Theming, NodeJS, AEM, JAVA, Jest, Cypress, Tekton pipeline, GitHub Actions"
     },
     {
+      "title": "Cypress E2E Automation",
+      "from": "Jan 2023",
+      "to": "May 2023",
+      "description": "A POC to automate the websites end to end flow from product choosing till to checkout page.",
+      "company": "Verizon",
+      "teamSize": "5",
+      "techStack": "Cypress, Mocha Awesome Reporter, React, Material UI, Mock Server, Jest, Pre commit Hooks, EsLints"
+    },
+    {
       "title": "Digital Sales",
       "from": "Mar 2021",
       "to": "May 2023",
-      "description": "Working on digital sales page for mobile phones and tablets with Verizon 5G network.",
+      "description": "A website for mobile phones and tablets with Verizon 5G network.",
       "company": "Verizon",
       "client": "End users",
       "teamSize": "100+",
@@ -106,7 +115,7 @@
       "company": "Verizon",
       "client": "Enterprise customers",
       "teamSize": "10",
-      "techStack": "React, Material UI, Mock Server, Java spring boot"
+      "techStack": "React, Angular11, Ionic Material UI, Mock Server, Java Spring boot, NodeJS"
     },
     {
       "title": "Virtual Network System Protocol - VNSP",
