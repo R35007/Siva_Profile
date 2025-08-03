@@ -1,14 +1,16 @@
 <div class="modal-dialog modal-dialog-centered theme-editor-modal" role="document">
     <div class="modal-content bg-dark">
-        <div class="modal-header">
+        <div class="modal-header justify-content-between">
             <h5 class="modal-title" id="theme-editor-title">Theme Editor</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span>x</span>
+            <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
+                <span>
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
             </button>
         </div>
         <div class="modal-body p-0" id="theme-editor-content">
             <div>
-                <div class="row no-gutters p-2 day-night">
+                <div class="d-flex p-2 day-night">
                     <div class="col-6 text-center">DARK THEME</div>
                     <div class="col-6 text-center">
                         <span>
@@ -17,7 +19,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="row no-gutters p-3">
+                <div class="d-flex p-3">
                     <div class="col-12 color-list d-flex flex-wrap align-items-center justify-content-center"
                         id="color-list">
                         <!-- Bootstrap -->

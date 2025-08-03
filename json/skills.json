@@ -1,20 +1,20 @@
 {
   "primarySkills": {
-    "UI / UX": 80,
-    "Angular": 70,
-    "React": 70,
-    "Node": 80,
-    "Cypress": 80,
-    "Jest": 80
+    "React": 80,
+    "Modal Context Protocol (MCP)": 60,
+    "Pipeline and Deployment": 60,
+    "Node Servers": 80,
+    "Cypress & Jest": 80,
+    "Javascript / Typescript": 80
   },
   "secondarySkills": {
-    "Javascript / Typescript": 90,
-    "Responsive Design": 80,
-    "HTML5": 70,
-    "Bootstrap": 70,
-    "Jquery": 70,
-    "LESS / SASS": 70,
-    "Photoshop": 50,
-    "Testing": 80
+    "HTML & CSS": 90,
+    "UI / UX": 80,
+    "Responsive Design": 90,
+    "Data structure and Algorithms": 50,
+    "Angular": 40,
+    "React Native": 40,
+    "VsCode Extensions": 90,
+    "Node Package": 80
   }
 }

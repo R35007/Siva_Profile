@@ -2,7 +2,7 @@
   "personalProjects": [
     {
       "title": "Mock Server",
-      "description": "Get a full REST API with zero coding in less than 30 seconds (seriously) Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.",
+      "description": "Developed a robust REST API mock server enabling rapid backend prototyping for front-end developers. Streamlines API simulation with zero coding, significantly accelerating development workflows.",
       "techStack": "Typescript, Node, VS Code extension API",
       "nodeUrl": "https://www.npmjs.com/package/@r35007/mock-server",
       "gitHubUrl": "https://r35007.github.io/mock-server",
@@ -11,7 +11,7 @@
     },
     {
       "title": "Create App",
-      "description": "This is a vscode extension which helps to easily create any UI App with official starter templates or boilerplate's using CLI.",
+      "description": "Engineered a VS Code extension that simplifies UI app creation using official starter templates and CLI tools, enhancing productivity for developers building new projects.",
       "techStack": "Typescript, Node, VS Code extension API",
       "gitHubUrl": "https://github.com/R35007/create-app-support",
       "webUrl": "https://raw.githubusercontent.com/R35007/create-app-support/master/images/previews/preview_v3.0.0.gif",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Sort JSON",
-      "description": "Simple JSON Object and Array sort vscode extension. This extension also supports custom sorting of JSON objects.",
+      "description": "Created a VS Code extension for efficient sorting of JSON objects and arrays, supporting custom sorting logic to streamline data organization and manipulation.",
       "techStack": "Typescript, Node, VS Code extension API",
       "gitHubUrl": "https://github.com/R35007/sort-json-vscode-extension.git",
       "webUrl": "https://user-images.githubusercontent.com/23217228/206927500-6b5202ff-f06f-4b2c-8fd2-7a218ff5005a.gif",
@@ -27,7 +27,7 @@
     },
     {
       "title": "Properties",
-      "description": "Get the image, audio, video or any file and folder properties such as size, contains, album, dimensions, durations etc...",
+      "description": "Developed a tool to extract comprehensive file and folder properties, including size, content details, media metadata, and more, enhancing file management capabilities.",
       "techStack": "Typescript, Node, VS Code extension API",
       "gitHubUrl": "https://github.com/R35007/fs-props",
       "nodeUrl": "https://www.npmjs.com/package/fs-props",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Data Size Count",
-      "description": "This is a VS Code extension which helps to show the number of line and words count in a selected text and also give the array and object size of the selected Json.",
+      "description": "Built a VS Code extension to provide real-time statistics on selected text, including line and word counts, as well as array and object sizes for JSON data.",
       "techStack": "Typescript, Node, VS Code extension API",
       "gitHubUrl": "https://github.com/R35007/data-size-count",
       "webUrl": "https://user-images.githubusercontent.com/23217228/205437199-a879dc6e-32b6-46b9-abc2-ec20dd33c4f1.gif",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Font Awesome",
-      "description": "View and Copy all free Font Awesome icons inside vscode. Also supports save icon as svg or png format.",
+      "description": "Implemented a VS Code extension for browsing and copying Font Awesome icons, with support for exporting icons as SVG or PNG, improving design workflow efficiency.",
       "techStack": "Typescript, Node, VS Code extension API",
       "gitHubUrl": "https://github.com/R35007/font-awesome-vscode-extension",
       "webUrl": "https://user-images.githubusercontent.com/23217228/205364534-54db2ec4-cf74-4e8c-a72e-7a7bd178f964.gif",
@@ -52,27 +52,27 @@
     },
     {
       "title": "What To Do",
-      "description": "What To Do is an efficient tool that assists us in keeping a check on your daily tasks and their progress.",
+      "description": "Designed an intuitive task management tool to help users efficiently track daily tasks and monitor progress, promoting productivity and organization.",
       "techStack": "React, Node, Kendo UI, Typescript, Express, OverNight JS.",
       "gitHubUrl": " https://r35007.github.io/What-To-Do/",
       "webUrl": "https://user-images.githubusercontent.com/23217228/67146175-1c039300-f2a6-11e9-84d7-3c7d65f3803c.png"
     },
     {
       "title": "Email Template Editing Tool",
-      "description": "A tool similar to word press which helps to build a standard Email Template",
+      "description": "Developed a user-friendly tool for building standardized email templates, offering a WordPress-like experience for streamlined email design.",
       "techStack": "HTML5, Css3, Jquery, Node.",
       "gitHubUrl": "https://github.com/R35007/Email_Template_Editing_Tool",
       "webUrl": "https://r35007.github.io/Email_Template_Editing_Tool/"
     },
     {
       "title": "React Custom Hooks",
-      "description": "As part of learning React Custom hooks, I have created multiple useful react custom hooks.",
+      "description": "Created a collection of reusable React custom hooks to enhance component logic and promote code modularity in React applications.",
       "techStack": "React",
       "gitHubUrl": "https://github.com/R35007/React-Custom-Hooks"
     },
     {
       "title": "DSA using Javascript",
-      "description": "Here are few DSA using javascript.",
+      "description": "Implemented various data structures and algorithms in JavaScript, demonstrating strong problem-solving skills and in-depth understanding of core programming concepts.",
       "techStack": "Javascript, ECMA script",
       "gitHubUrl": "https://github.com/R35007/DataStructure-and-Algorithms-using-Javascript"
     }
@@ -82,17 +82,17 @@
       "title": "Universal Component Library",
       "from": "May 2023",
       "to": "Present",
-      "description": "I'm working as a Project lead in offshore. I take care of customer onboarding, development and deployment of this library",
+      "description": "Leading the development and deployment of a scalable component library for Ford Motor Company, overseeing customer onboarding and collaborating with a cross-functional team to deliver high-quality, reusable UI components.",
       "company": "Ford Motor Company",
       "client": "Ford Project Team Developers",
       "teamSize": "50+",
-      "techStack": " ReactJS, Server-side rendering, Singe SPA, Styled Components, Theming, NodeJS, AEM, JAVA, Jest, Cypress, Tekton pipeline, GitHub Actions"
+      "techStack": " ReactJS, Server-side rendering, MCP, Singe SPA, Styled Components, Theming, NodeJS, AEM, JAVA, Jest, Cypress, Tekton pipeline, GitHub Actions"
     },
     {
       "title": "Cypress E2E Automation",
       "from": "Jan 2023",
       "to": "May 2023",
-      "description": "A POC to automate the websites end to end flow from product choosing till to checkout page.",
+      "description": "Spearheaded a proof-of-concept for end-to-end automation of web application flows, optimizing testing processes from product selection to checkout and ensuring robust quality assurance.",
       "company": "Verizon",
       "teamSize": "5",
       "techStack": "Cypress, Mocha Awesome Reporter, React, Material UI, Mock Server, Jest, Pre commit Hooks, EsLints"
@@ -101,7 +101,7 @@
       "title": "Digital Sales",
       "from": "Mar 2021",
       "to": "May 2023",
-      "description": "A website for mobile phones and tablets with Verizon 5G network.",
+      "description": "Contributed to the development of a comprehensive e-commerce platform for mobile devices and tablets, leveraging Verizon's 5G network to enhance user experience and drive digital sales.",
       "company": "Verizon",
       "client": "End users",
       "teamSize": "100+",
@@ -111,7 +111,7 @@
       "title": "Decommission Equipment",
       "from": "Sep 2020",
       "to": "Mar 2021",
-      "description": "This tool helps to allocate router or decommission router connection for a sector in company. This tool is handled by the network admins.",
+      "description": "Developed a network administration tool to efficiently allocate and decommission router connections, streamlining operations for enterprise network administrators.",
       "company": "Verizon",
       "client": "Enterprise customers",
       "teamSize": "10",
@@ -121,7 +121,7 @@
       "title": "Virtual Network System Protocol - VNSP",
       "from": "Mar 2020",
       "to": "Sep 2020",
-      "description": "A Web app tool to allocate or configure bandwidth for the specific customer",
+      "description": "Engineered a web application for bandwidth allocation and configuration, empowering enterprise customers with flexible network management solutions.",
       "company": "Verizon",
       "client": "Enterprise customers",
       "teamSize": "7",
@@ -131,7 +131,7 @@
       "title": "Canvas Application",
       "from": "Dec 2019",
       "to": "Mar 2020",
-      "description": "A Task management tool which helps to assign, suspend task tc.. for the internal purpose.",
+      "description": "Built an internal task management tool to facilitate task assignment and tracking, improving operational efficiency for internal teams.",
       "company": "Verizon",
       "client": "Internal employees",
       "teamSize": "5",
@@ -141,7 +141,7 @@
       "title": "Ace Tool",
       "from": "Jun 2019",
       "to": "Dec 2020",
-      "description": "It is an import and export tool to transfer data between JSON to google sheet and vise versa. The content author provide the content in the google sheet which will then converted to a json object to run the online education tool.",
+      "description": "Developed a data import/export tool for seamless transfer between JSON and Google Sheets, supporting content authors in managing educational content efficiently.",
       "company": "Lister Technologies",
       "client": "An American Research And Development Team of Lexia group of companies",
       "teamSize": "10",
@@ -151,7 +151,7 @@
       "title": "Powerup - Online Educational Tool",
       "from": "Apr 2019",
       "to": "Dec 2019",
-      "description": "An online english language communication education tool. The content author provide their content in the third party tool called Contentfull. Using Contentfull API we provide data service to the tool and run the application.",
+      "description": "Contributed to an online English language education platform, integrating Contentful API for dynamic content delivery and enhancing the learning experience.",
       "company": "Lister Technologies",
       "client": "An American Research And Development Team of Lexia group of company",
       "teamSize": "10",
@@ -161,7 +161,7 @@
       "title": "Incentive Pay Management",
       "from": "Jan 2018",
       "to": "Apr 2019",
-      "description": "A tool to manage the incentive pay for the customers across different regions. The region admin can configure different constraints for their legacy customer like increasing the incentive per hour basis or by speed basis",
+      "description": "Implemented a comprehensive tool for managing incentive pay across regions, enabling administrators to configure and monitor customer-specific compensation structures.",
       "company": "Lister Technologies",
       "client": "An American Retailing Company - Kroger",
       "teamSize": "15",
@@ -171,7 +171,7 @@
       "title": "UI/UX Designer",
       "from": "Apr 2017",
       "to": "Jan 2018",
-      "description": "Build a standard Email Templates for different clients which is compatible for all different browsers and versions",
+      "description": "Designed and developed cross-browser compatible email templates for diverse clients, ensuring high-quality standards and consistent branding.",
       "company": "Lister Technologies",
       "client": "Lenova, Perricone, Maybelline etc..",
       "teamSize": "7",

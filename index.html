@@ -25,8 +25,8 @@
 				<a class="navbar-brand" href="index.html">Sivaraman</a>
 				<button type="button" class="btn border-none btn-settings" data-toggle="modal"
 					data-target="#theme-editor">
-					<span class="icon-settings">
-						<i class="fa-solid fa-gear"></i>
+					<span class="icon-settings" title="Theme Color">
+						<i class="fa-solid fa-brush"></i>
 					</span>
 				</button>
 			</div>
@@ -37,7 +37,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse ftco-nav" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
+				<ul class="navbar-nav nav ms-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link active"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
@@ -67,59 +67,75 @@
 							<span class="subheading">Hi!</span>
 							<h1 class="mb-4 mt-3">I'm <span>Sivaraman</span></h1>
 							<h2 class="mb-4">A Creative Frontend Engineer</h2>
-							<ul class="ftco-hero-social list-unstyled mr-2">
-								<li class="ftco-animate ftco-nav">
-									<a href="#myworks-section" class="btn btn-custom light py-3 px-4">My
-										works
+							<ul class="ftco-hero-social d-flex align-items-center gap-1 list-unstyled me-2">
+								<!-- Buy me a Coffee -->
+								<li class="buy-me-a-coffee ftco-animate ftco-nav">
+									<a href="https://buymeacoffee.com/r35007" target="_blank"
+										class="d-flex align-items-center btn gap-2 py-2 ps-0 rounded-1">
+										<svg data-prefix="far" data-icon="coffee" role="img"
+											xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+											class="svg-inline--fa fa-coffee fa-w-20 fa-7x">
+											<path fill="currentColor"
+												d="M512 32H112c-8.8 0-16 7.2-16 16v256c0 44.2 35.8 80 80 80h224c44.2 0 80-35.8 80-80v-16h32c70.6 0 128-57.4 128-128S582.6 32 512 32zm-80 272c0 17.6-14.4 32-32 32H176c-17.6 0-32-14.4-32-32V80h288v224zm80-64h-32V80h32c44.1 0 80 35.9 80 80s-35.9 80-80 80zm55.8 240H40.2c-37.3 0-50.2-48-32-48h591.7c18.1 0 5.2 48-32.1 48z"
+												class=""></path>
+										</svg>
+										<span style="font-size: 1rem; transform: unset; inset: 0"
+											class="position-relative">Buy me a
+											coffee</span>
 									</a>
 								</li>
-								<!-- GitHub Link -->
-								<li class="ftco-animate">
-									<a href="https://github.com/R35007" target="_blank" class="rounded-circle"
-										title="GitHub">
-										<span title="GitHub" class="icon-github">
-											<i class="fa-brands fa-github"></i>
-										</span>
-									</a>
-								</li>
-								<!-- Node Packages Link -->
-								<li class="ftco-animate">
-									<a href="https://www.npmjs.com/~r35007" target="_blank" class="rounded-circle"
-										title="Node Packages">
-										<span title="Node Packages" class="icon-node">
-											<i class="fa-brands fa-node-js"></i>
-										</span>
-									</a>
-								</li>
-								<!-- VSCode Extensions Link -->
-								<li class="ftco-animate">
-									<a href="https://marketplace.visualstudio.com/publishers/Thinker" target="_blank"
-										class="rounded-circle" title="VSCode Extensions">
-										<span title="VSCode Extensions" class="icon-vscode">
-											<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 512 512"
-												version="1.1">
-												<path
-													d="M 350.820 34.520 C 348.078 35.398, 343.935 38.014, 340.820 40.833 C 337.894 43.480, 296.903 80.826, 249.728 123.823 C 202.553 166.820, 163.718 202, 163.427 202 C 163.136 202, 145.286 188.643, 123.760 172.318 C 101.258 155.253, 82.908 142.045, 80.592 141.247 C 75.918 139.637, 71.017 140.263, 66.165 143.090 C 64.330 144.159, 56.597 150.699, 48.980 157.624 C 34.368 170.909, 32 174.289, 32 181.863 C 32 189.121, 35.190 192.684, 70.250 224.580 C 88.812 241.468, 104 255.598, 104 255.981 C 104 256.364, 88.701 270.588, 70.003 287.589 C 34.531 319.840, 32 322.685, 32 330.295 C 32 337.851, 34.451 341.294, 49.531 354.926 C 57.408 362.047, 65.139 368.538, 66.711 369.351 C 71.405 371.778, 76.217 372.260, 80.618 370.744 C 82.967 369.934, 101.136 356.863, 123.805 339.673 C 145.328 323.353, 163.189 310, 163.496 310 C 163.804 310, 204.374 346.788, 253.651 391.750 C 304.277 437.942, 345.151 474.487, 347.624 475.769 C 353.313 478.719, 359.759 479.550, 365.581 478.084 C 371.433 476.610, 463.076 432.749, 468.478 428.836 C 473.113 425.478, 477.558 419.250, 478.985 414.113 C 479.638 411.764, 479.975 356.266, 479.951 255.500 C 479.919 127.639, 479.675 99.834, 478.556 96.698 C 476.585 91.171, 472.370 85.509, 468.169 82.743 C 464.649 80.427, 400.128 49.066, 377.685 38.763 C 365.366 33.108, 358.571 32.035, 350.820 34.520 M 301.500 204.932 C 265.200 232.455, 235.500 255.444, 235.500 256.018 C 235.500 256.592, 265.200 279.585, 301.500 307.114 L 367.500 357.166 367.759 306.583 C 367.902 278.762, 367.902 233.250, 367.759 205.444 L 367.500 154.888 301.500 204.932"
-													stroke="none" fill-rule="evenodd" />
-											</svg>
-										</span>
-									</a>
-								</li>
-								<!-- Linked In -->
-								<li class="ftco-animate">
-									<a href="https://www.linkedin.com/in/sivaraman-r35007/" target="_blank"
-										class="rounded-circle" title="LinkedIn">
-										<span title="LinkedIn" class="icon-linkedIn">
-											<i class="fa-brands fa-linkedin"></i>
-										</span>
-									</a>
-								</li>
-							</ul>
-							<ul class="ftco-hero-social p-0 m-0">
-								<li class="ftco-animate ftco-nav">
-									<a href="https://buymeacoffee.com/r35007" target="_blank">
-										<img src="./images//buymeacoffee.png" alt="Buy me a coffee ?">
-									</a>
+								<li>
+									<ul class="ftco-hero-social d-flex align-items-center gap-4 list-unstyled me-2">
+										<!-- GitHub Link -->
+										<li class="ftco-animate">
+											<a href="https://github.com/R35007" target="_blank" title="GitHub">
+												<span title="GitHub" class="icon-github">
+													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+														<path
+															d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<!-- Node Packages Link -->
+										<li class="ftco-animate">
+											<a href="https://www.npmjs.com/~r35007" target="_blank"
+												class="rounded-circle" title="Node Packages">
+												<span title="Node Packages" class="icon-node">
+													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+														<path
+															d="M224 508c-6.7 0-13.5-1.8-19.4-5.2l-61.7-36.5c-9.2-5.2-4.7-7-1.7-8 12.3-4.3 14.8-5.2 27.9-12.7 1.4-.8 3.2-.5 4.6.4l47.4 28.1c1.7 1 4.1 1 5.7 0l184.7-106.6c1.7-1 2.8-3 2.8-5V149.3c0-2.1-1.1-4-2.9-5.1L226.8 37.7c-1.7-1-4-1-5.7 0L36.6 144.3c-1.8 1-2.9 3-2.9 5.1v213.1c0 2 1.1 4 2.9 4.9l50.6 29.2c27.5 13.7 44.3-2.4 44.3-18.7V167.5c0-3 2.4-5.3 5.4-5.3h23.4c2.9 0 5.4 2.3 5.4 5.3V378c0 36.6-20 57.6-54.7 57.6-10.7 0-19.1 0-42.5-11.6l-48.4-27.9C8.1 389.2.7 376.3.7 362.4V149.3c0-13.8 7.4-26.8 19.4-33.7L204.6 9c11.7-6.6 27.2-6.6 38.8 0l184.7 106.7c12 6.9 19.4 19.8 19.4 33.7v213.1c0 13.8-7.4 26.7-19.4 33.7L243.4 502.8c-5.9 3.4-12.6 5.2-19.4 5.2zm149.1-210.1c0-39.9-27-50.5-83.7-58-57.4-7.6-63.2-11.5-63.2-24.9 0-11.1 4.9-25.9 47.4-25.9 37.9 0 51.9 8.2 57.7 33.8.5 2.4 2.7 4.2 5.2 4.2h24c1.5 0 2.9-.6 3.9-1.7s1.5-2.6 1.4-4.1c-3.7-44.1-33-64.6-92.2-64.6-52.7 0-84.1 22.2-84.1 59.5 0 40.4 31.3 51.6 81.8 56.6 60.5 5.9 65.2 14.8 65.2 26.7 0 20.6-16.6 29.4-55.5 29.4-48.9 0-59.6-12.3-63.2-36.6-.4-2.6-2.6-4.5-5.3-4.5h-23.9c-3 0-5.3 2.4-5.3 5.3 0 31.1 16.9 68.2 97.8 68.2 58.4-.1 92-23.2 92-63.4z" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<!-- VSCode Extensions Link -->
+										<li class="ftco-animate">
+											<a href="https://marketplace.visualstudio.com/publishers/Thinker"
+												target="_blank" class="rounded-circle" title="VSCode Extensions">
+												<span title="VSCode Extensions" class="icon-vscode">
+													<svg xmlns="http://www.w3.org/2000/svg" width="100%"
+														viewBox="0 0 512 512" version="1.1">
+														<path
+															d="M 350.820 34.520 C 348.078 35.398, 343.935 38.014, 340.820 40.833 C 337.894 43.480, 296.903 80.826, 249.728 123.823 C 202.553 166.820, 163.718 202, 163.427 202 C 163.136 202, 145.286 188.643, 123.760 172.318 C 101.258 155.253, 82.908 142.045, 80.592 141.247 C 75.918 139.637, 71.017 140.263, 66.165 143.090 C 64.330 144.159, 56.597 150.699, 48.980 157.624 C 34.368 170.909, 32 174.289, 32 181.863 C 32 189.121, 35.190 192.684, 70.250 224.580 C 88.812 241.468, 104 255.598, 104 255.981 C 104 256.364, 88.701 270.588, 70.003 287.589 C 34.531 319.840, 32 322.685, 32 330.295 C 32 337.851, 34.451 341.294, 49.531 354.926 C 57.408 362.047, 65.139 368.538, 66.711 369.351 C 71.405 371.778, 76.217 372.260, 80.618 370.744 C 82.967 369.934, 101.136 356.863, 123.805 339.673 C 145.328 323.353, 163.189 310, 163.496 310 C 163.804 310, 204.374 346.788, 253.651 391.750 C 304.277 437.942, 345.151 474.487, 347.624 475.769 C 353.313 478.719, 359.759 479.550, 365.581 478.084 C 371.433 476.610, 463.076 432.749, 468.478 428.836 C 473.113 425.478, 477.558 419.250, 478.985 414.113 C 479.638 411.764, 479.975 356.266, 479.951 255.500 C 479.919 127.639, 479.675 99.834, 478.556 96.698 C 476.585 91.171, 472.370 85.509, 468.169 82.743 C 464.649 80.427, 400.128 49.066, 377.685 38.763 C 365.366 33.108, 358.571 32.035, 350.820 34.520 M 301.500 204.932 C 265.200 232.455, 235.500 255.444, 235.500 256.018 C 235.500 256.592, 265.200 279.585, 301.500 307.114 L 367.500 357.166 367.759 306.583 C 367.902 278.762, 367.902 233.250, 367.759 205.444 L 367.500 154.888 301.500 204.932"
+															stroke="none" fill-rule="evenodd" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<!-- Linked In -->
+										<li class="ftco-animate">
+											<a href="https://www.linkedin.com/in/sivaraman-r35007/" target="_blank"
+												class="rounded-circle" title="LinkedIn">
+												<span title="LinkedIn" class="icon-linkedIn">
+													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+														<path
+															d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+													</svg>
+												</span>
+											</a>
+										</li>
+									</ul>
 								</li>
 							</ul>
 						</div>
@@ -141,7 +157,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+				<div class="col-md-6 col-lg-7 ps-lg-5 pb-5">
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
 							<h1 class="big">About</h1>
@@ -240,7 +256,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 position-relative">
 					<div class="experience ftco-animate animate-box d-none d-md-block" data-animate-effect="fadeInTop">
 						<strong class="experience-number number">0</strong>
 						<span>Years</span>
@@ -282,7 +298,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="ml-4 mr-4 d-none d-md-block">
+								<div class="ms-4 me-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
 										<i class="icon-pen2">
 											<i class="fa-solid fa-graduation-cap"></i>
@@ -300,7 +316,7 @@
 
 								<div class="timeline-label invisible d-none d-md-block">
 								</div>
-								<div class="ml-4 mr-4 d-none d-md-block">
+								<div class="ms-4 me-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
 										<i class="icon-pen2">
 											<i class="fa-solid fa-graduation-cap"></i>
@@ -342,7 +358,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="ml-4 mr-4 d-none d-md-block">
+								<div class="ms-4 me-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
 										<i class="icon-pen2">
 											<i class="fa-solid fa-graduation-cap"></i>
@@ -360,7 +376,7 @@
 
 								<div class="timeline-label invisible d-none d-md-block">
 								</div>
-								<div class="ml-4 mr-4 d-none d-md-block">
+								<div class="ms-4 me-4 d-none d-md-block">
 									<div class="timeline-icon mx-auto">
 										<i class="icon-pen2">
 											<i class="fa-solid fa-graduation-cap"></i>
@@ -392,7 +408,7 @@
 							<div class="timeline-entry-inner">
 								<div class="timeline-label invisible d-none d-md-block">
 								</div>
-								<div class="ml-4 mr-4 d-none d-md-block">
+								<div class="ms-4 me-4 d-none d-md-block">
 									<div class="timeline-icon color-none mx-auto">
 									</div>
 								</div>
@@ -422,7 +438,7 @@
 					<div class="col ftco-animate" data-animate-effect="fadeInLeft">
 						<h4 class="mb-3 text-nowrap">Personal Projects</h3>
 					</div>
-					<div class="col text-right ftco-animate d-none d-md-block" data-animate-effect="fadeInRight">
+					<div class="col text-end ftco-animate d-none d-md-block" data-animate-effect="fadeInRight">
 						<a class="btn btn-primary rounded rounded-2 outline-none shadow-none" href="#personal-projects"
 							role="button" data-slide="prev">
 							<i class="fa fa-arrow-left"></i>
